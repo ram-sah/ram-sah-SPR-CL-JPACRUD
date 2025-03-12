@@ -22,7 +22,7 @@ public class StoreService {
      * @return the persisted store
      */
     public Store persistStore(Store store){
-        return storeRepository.save(
+        return storeRepository.save(store);
     }
     /**
      * TODO: get all store entities
